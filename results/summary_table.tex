@@ -1,0 +1,45 @@
+% Requires \usepackage{booktabs}.
+\begin{table}[htbp]
+\centering
+\caption{Feasibility, optimality, and query efficiency for 30 CUTEst problems}
+\label{tab:cutest_combined}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccc}
+\toprule
+Algorithm & \shortstack{Mean\\feasible} & \shortstack{Avg.\\feasible rate}
+& \multicolumn{2}{c}{Mean problems solved} & \multicolumn{2}{c}{Normalized log-AUC} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+& & & $\tau=10^{-1}$ & $\tau=10^{-3}$ & $\tau=10^{-1}$ & $\tau=10^{-3}$ \\
+\midrule
+ZOB-SGDA & $22.50 \pm 0.38$ & $0.750$ & $16.90 \pm 0.41$ & $\mathbf{12.30} \pm 0.48$ & $0.2602 \pm 0.0079$ & $\mathbf{0.1096} \pm 0.0060$ \\
+ZOB-GDA & $22.30 \pm 0.35$ & $0.743$ & $\mathbf{18.40} \pm 0.37$ & $9.70 \pm 0.68$ & $0.2875 \pm 0.0036$ & $0.0994 \pm 0.0046$ \\
+\midrule
+NOMAD & $\mathbf{25.50} \pm 0.77$ & $\mathbf{0.850}$ & $13.90 \pm 0.53$ & $4.50 \pm 0.97$ & $\mathbf{0.2890} \pm 0.0098$ & $0.0851 \pm 0.0141$ \\
+ZO-AGP & $18.00$ & $0.600$ & $11.00$ & $5.00$ & $0.2108$ & $0.0605$ \\
+ZO-MinMax & $18.20 \pm 0.56$ & $0.607$ & $12.90 \pm 0.79$ & $8.40 \pm 0.60$ & $0.1987 \pm 0.0119$ & $0.0831 \pm 0.0069$ \\
+SZO-ConEx & $16.30 \pm 0.35$ & $0.543$ & $7.20 \pm 0.45$ & $2.10 \pm 0.23$ & $0.1115 \pm 0.0024$ & $0.0246 \pm 0.0049$ \\
+\bottomrule
+\end{tabular}
+\vspace{0.5em}
+\parbox{0.98\textwidth}{\footnotesize
+Note: Mean feasible averages the number of problems with a feasible incumbent
+(normalized violation $\le10^{-4}$) across seeds. Avg.\ feasible rate is this mean
+divided by 30. Mean problems solved additionally requires
+$\max\{0,f^{\mathrm{best}}-f^{\mathrm{ref}}\}/\max\{1,|f^0-f^{\mathrm{ref}}|\}\le\tau$.
+Normalized log-AUC is the area under each seed's data profile with respect to
+$\log q$, divided by $\log B$, over $1\le q\le B$, where
+$q=Q/(d_x+1)$ and $B=16,666.67$.
+It lies in $[0,1]$; larger values indicate better query efficiency and coverage.
+The $\pm$ values are 95\% Student-$t$ confidence half-widths across seeds 1--10,
+computed separately from seed-level counts or AUCs.
+ZO-AGP has one run per problem and no seed-based confidence interval.
+Only observations within the original query budgets and 1,800 seconds are scored.
+All algorithms share the same reference pool; problems without a finite reference
+remain in the denominator but cannot count as solved.
+All references come from verified saved points. A separate sensitivity analysis retains unrecovered historical scalar references on HALDMADS and HAIFAL.
+CRESC4 NOMAD seeds 1 and 10 retain the high-precision post-hoc feasibility correction;
+their original optimization feedback was not corrected.
+Bold identifies the largest mean, not statistical significance.
+}
+\end{table}

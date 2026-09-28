@@ -1,0 +1,22 @@
+algorithm,configuration_label,retained_in_final_comparison,alpha_initial,beta,primal_step_rule,block_size_rule,r0,radius_decay,dual_upper_bound,memory_ratio,gamma_rule,p_rule,dual_regularization_rule,theta,direction_rule,evidence_stage,evidence_problem_count,evidence_seeds,evidence_query_budget,solver_time_cap_seconds
+ZOB-SGDA,SGDA-1,yes,0.1,0.05,constant,"min(d_x,max(1,ceil(0.75*sqrt(d_x))))",0.003,0.5,100,1,"min(1/40,1/sqrt(K*N),sqrt(alpha/(768*lambda*N*beta)))",lambda*N*gamma/alpha,,,coordinate subset without replacement,development validation,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOB-SGDA,SGDA-2,no,0.03,0.03,constant,"min(2,d_x)",0.01,0.5,100,0.1,"min(1/36,1/sqrt(K*N),sqrt(alpha/(768*lambda*N*beta)))",lambda*N*gamma/alpha,,,coordinate subset without replacement,development validation,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOB-SGDA,SGDA-3,no,0.1,0.05,constant,ceil(sqrt(d_x)),0.003,0.5,100,1,"min(1/40,1/sqrt(K*N),sqrt(alpha/(768*lambda*N*beta)))",lambda*N*gamma/alpha,,,coordinate subset without replacement,development validation,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOB-SGDA,SGDA-4,no,0.1,0.1,constant,ceil(sqrt(d_x)),0.003,0.5,100,1,"min(1/40,1/sqrt(K*N),sqrt(alpha/(768*lambda*N*beta)))",lambda*N*gamma/alpha,,,coordinate subset without replacement,development validation,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOB-GDA,GDA-1,yes,0.08,0.05,constant,ceil(sqrt(d_x)),0.003,0.5,100,,,,,,coordinate subset without replacement,development validation,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOB-GDA,GDA-2,no,0.03,0.03,constant,"min(2,d_x)",0.003,0.5,100,,,,,,coordinate subset without replacement,development validation,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOB-GDA,GDA-3,no,0.05,0.03,constant,"min(2,d_x)",0.003,0.5,100,,,,,,coordinate subset without replacement,development validation,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOB-GDA,GDA-4,no,0.08,0.1,constant,"min(d_x,max(1,ceil(1.5*sqrt(d_x))))",0.003,0.5,100,,,,,,coordinate subset without replacement,development validation,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+NOMAD,NOMAD-1,yes,,,,,,,,,,,,,NOMAD default search and poll settings,formal evaluation,,,,1800
+ZOAGP,AGP-1,yes,0.3,0.09,alpha_initial*101/(100+sqrt(t)),d_x,0.003,0.5,100,,,,0.1/t^(1/4),,all coordinate directions,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOAGP,AGP-2,no,0.3,0.3,alpha_initial*101/(100+sqrt(t)),d_x,0.0001,1,100,,,,0.1/t^(1/4),,all coordinate directions,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOAGP,AGP-3,no,0.03,0.009,alpha_initial*101/(100+sqrt(t)),d_x,0.01,0.5,100,,,,0.1/t^(1/4),,all coordinate directions,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZOAGP,AGP-4,no,0.1,0.003,alpha_initial*101/(100+sqrt(t)),d_x,0.001,1,100,,,,0.1/t^(1/4),,all coordinate directions,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZO-MinMax,MINMAX-1,yes,0.1,0.003,constant,,0.001,0,100,,,,,,one unit-sphere direction,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZO-MinMax,MINMAX-2,no,0.03,0.009,constant,,0.01,0,100,,,,,,one unit-sphere direction,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZO-MinMax,MINMAX-3,no,0.3,0.09,constant,,0.003,0,100,,,,,,one unit-sphere direction,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+ZO-MinMax,MINMAX-4,no,0.01,0.003,constant,,0.001,0,10,,,,,,one unit-sphere direction,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+SZO-ConEx,CONEX-1,yes,0.03,0.009,constant,,0.01,0,unbounded,,,,,1,independent Gaussian directions,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+SZO-ConEx,CONEX-2,no,0.3,0.3,constant,,0.0001,0,unbounded,,,,,1,independent Gaussian directions,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+SZO-ConEx,CONEX-3,no,0.3,0.3,constant,,0.003,0,unbounded,,,,,0,independent Gaussian directions,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800
+SZO-ConEx,CONEX-4,no,0.1,0.003,constant,,0.001,0,unbounded,,,,,1,independent Gaussian directions,development screening,27,101;102;103,"min(1000000,max(50000,1000*(d_x+1)))",1800

@@ -1,0 +1,163 @@
+{
+  "comparison": {
+    "deterministic_seed": 1,
+    "deterministic_solver": "zoagp",
+    "parameter_policy": "uniform",
+    "problems": 30,
+    "reference_policy": "verified_shared_best_known",
+    "result_storage": "final_metrics_and_target_hitting_times",
+    "runs": 1530,
+    "stochastic_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "configuration_sha256": {
+    "config/historical_problem_parameters.csv": "c206b9c62ec2b7ef52f9e5d9ad054448d9222fab43f87a3c945149d36193b81b",
+    "config/nomad_rng_states.json": "370191359dd7eddfeb3c870c1d22a8b1211e349f8cbfc216e97caf070818703c",
+    "config/parameters.json": "7f1790951fbfc28d39e88bf891225809738d6e61ca4d646443dea933521e2fdf",
+    "config/problems.csv": "b87d87d921e48fc8ef307726c283d5b0dddf0d956cd46f990503ce4a22d5fd6d",
+    "config/protocol.json": "7ada4cd0577e223b504dd2ce3b56006430512416897821312cc1a411c4b83c88",
+    "config/reference_points.json.gz": "8d37543054e30f362f6600f3d1fa587a959244e6f5942ebe2684191b45df17f5",
+    "config/references.csv": "af8fe8da52971f64c991b13007af6147e4c43391b0359f7772312cffd3ebfcf0"
+  },
+  "core_files": [
+    {
+      "executable_ast_sha256": "cc7c33a3158bbf0c1a06d246a54d33579d255c89bca6fb151f1376baffafc722",
+      "frozen_sha256": "2fcab91424f723bb77a013bbd1ecf5cf78d5f31562d897a00ade75db4150d914",
+      "path": "src/cutest_benchmark/__init__.py"
+    },
+    {
+      "executable_ast_sha256": "c4b9553f40ba296db21857e79468a3c17a5cc3309e497b0f6649405865cf4822",
+      "frozen_sha256": "09816634f93c3f584975e84b71e95854207bf7b1fbf587b32aa1b6ab33388149",
+      "path": "src/cutest_benchmark/config.py"
+    },
+    {
+      "executable_ast_sha256": "0206d102290990c2803c83828a6491da085edda9bad1f0e6896a2024c39a3616",
+      "frozen_sha256": "c1afc81428b108bd7c587cde0f71c1ba5eda6ef6f07b1cac30c8fe0fea017b56",
+      "path": "src/cutest_benchmark/constraints.py"
+    },
+    {
+      "executable_ast_sha256": "8e1ecb1b75317d11f574ca8e33abc1a4f9b5ff87f3f48c3b2aa39608b97620fd",
+      "frozen_sha256": "59fdae22c5dde8bd6bb68d9e5218083e88f1ece6f4c01335585162de9c0530da",
+      "path": "src/cutest_benchmark/fd.py"
+    },
+    {
+      "executable_ast_sha256": "958515e1c24d3466845258b9957ecd267377903bb7ea57660d5f6804bebdd987",
+      "frozen_sha256": "d948b65121a486b1184db1e592bf39eb10e675d1cfa848e2ff1089908a737200",
+      "path": "src/cutest_benchmark/oracle_cutest.py"
+    },
+    {
+      "executable_ast_sha256": "32cff2a66640dd3f214995cc08e63424d700a9b9ccff2551db42aafc7c5bd7c9",
+      "frozen_sha256": "ba52007697502e612578cd0ea2592f901874e4df7a2798bd7b48e8de44212775",
+      "path": "src/cutest_benchmark/logging_utils.py"
+    },
+    {
+      "executable_ast_sha256": "8bf58637caf0c5c0eee67bb2f883c3b9a53fdf7eee172924fff8ce7be41c3afa",
+      "frozen_sha256": "d2045f1e890fb1267bee3a52f999099b7b360a764646be20aaa1df3fcf4179b9",
+      "path": "src/cutest_benchmark/solvers/common.py"
+    },
+    {
+      "executable_ast_sha256": "5886bb8f6368c516884c88cc8d36be16b47759004a76bc4ef67a4465123946c0",
+      "frozen_sha256": "e4394e7ff923c764564f6924da52b6bf4a2dc9044d18d6bf2035c7c084fff2d2",
+      "path": "src/cutest_benchmark/solvers/zob_gda.py"
+    },
+    {
+      "executable_ast_sha256": "85434d7cc1959f3037f9658c9ac380020cfbb35bfe2a79fa36a5939d8e6d9508",
+      "frozen_sha256": "79381b2b453e5de35cbaffc99e2b17a4e2b3ad8504b4a972cfcfaffba1ffb999",
+      "path": "src/cutest_benchmark/solvers/zob_sgda.py"
+    },
+    {
+      "executable_ast_sha256": "a6de519c8ecb16b94fe9bd017bfa91b84850f28ac8a2a447090875dc57dd0262",
+      "frozen_sha256": "c9feebaa894ad34a2034f2346349509bda6dd81bc2835fc3d8eb657505c43ef9",
+      "path": "src/cutest_benchmark/sampled_logging.py"
+    },
+    {
+      "executable_ast_sha256": "950fa0520e227bbe80d38ab3b97272e4a4aa8e04fd6d626a776ac7801af748ce",
+      "frozen_sha256": "25d66c7c0b9f95a827c27d7e438fefb23345558b907f6786d402414a1a8b509d",
+      "path": "src/cutest_benchmark/solvers/reference/__init__.py"
+    },
+    {
+      "executable_ast_sha256": "4ca4c80e6506e1f094a21c282f786960e163c4547aa5ec73f500b2f0ec0ddf5a",
+      "frozen_sha256": "b81dec7bdddbc806538d9179f4b457badc74ff138a147f2ab44b5f9808a3e2f8",
+      "path": "src/cutest_benchmark/solvers/reference/common.py"
+    },
+    {
+      "executable_ast_sha256": "ce41e232c05fc3974175f3777b5a4b3db4bc2f45259dd66c8bc04d6600c69a87",
+      "frozen_sha256": "ab2d1a6d096ba37944c5a4046b3513723f3d475ce3046e7967522b66ec27102f",
+      "path": "src/cutest_benchmark/solvers/reference/szo_conex.py"
+    },
+    {
+      "executable_ast_sha256": "d4ecb490151a53d077aaa5f5d5b15cd6759e4717edf1adcfa1452535eb01548a",
+      "frozen_sha256": "7c34bb0f228f9d1740245e30fabd7a48531a503c3415141e5c69d60c9253f042",
+      "path": "src/cutest_benchmark/solvers/reference/zoagp.py"
+    },
+    {
+      "executable_ast_sha256": "d17584107d31ad506b0664918b63ab00ae2ddbf33149b2debc8c3730ccd658fd",
+      "frozen_sha256": "5794de446200e2fe659f6ff05017d9a572a8c0ce7b9a9263a421ce68fc30d630",
+      "path": "src/cutest_benchmark/solvers/reference/zominmax.py"
+    },
+    {
+      "executable_ast_sha256": "cce26749cee4cf2b82465497df9181bdf48bf1a1b3c85ee8ae9cfaf1d5928ec7",
+      "frozen_sha256": "1bc0be278c9917f805e3b1ba4d76c1f5f13d8d5897d79bc5c5bebd803ee4b17c",
+      "path": "src/cutest_benchmark/solvers/nomad.py"
+    }
+  ],
+  "cutest": "2.6.0",
+  "environment": {
+    "architecture": "arm64",
+    "packages": {
+      "PyNomadBBO": "4.5.1",
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "pycutest": "1.8.2",
+      "scipy": "1.15.2"
+    },
+    "pynomad_sha256": "636ab7e7604752ae50606b4ab86a1b77fc19136a74c4a0526e1e9b162c487c05",
+    "python": "3.10.21",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "matplotlib": "3.10.9",
+  "mpmath": "1.3.0",
+  "nomad_worker_frozen_sha256": "68f4aa33afac2be64a9a49d98b764959499fe7d3099721684cf137bcef6cc5e1",
+  "reference_baseline_environment": {
+    "architecture": "arm64",
+    "numerical_threads": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "pycutest": "1.8.2",
+      "scipy": "1.15.2"
+    },
+    "python": "3.10.21"
+  },
+  "release_adapters_sha256": {
+    "src/cutest_benchmark/analysis.py": "b498f1bb4ddfe3cc0867ba80f806e6d771291eb0a59beb0394aa2c3190dbb92d",
+    "src/cutest_benchmark/figures.py": "5428294e309d0f9a07cfbc98a4350fde1c233010b390cb429ba5ab35ef353cbb",
+    "src/cutest_benchmark/high_precision.py": "8a88ce9e020a24965fc3ec5a8aea9bd5c401224a137cc5eda6c2f778f2351138",
+    "src/cutest_benchmark/parameters.py": "04c68ee051091df43060b35c9126209222518b90ad492dfc2d75b2b6957e9ed2",
+    "src/cutest_benchmark/recording.py": "8de0120f9ff12123e3dc519ee9e4035af811e6f3087e3a0d03044783c6b58fe0",
+    "src/cutest_benchmark/reporting.py": "33dd7285750c78e96c395a9f5100ecd32dfd23134dd22d2101894fa487c063d4",
+    "src/cutest_benchmark/runner.py": "94ff05e01fab1283b249c21dc6be679bbcb8d6eeead40fba7190926f82c77038",
+    "src/cutest_benchmark/validation.py": "f5198af5f87faed9604bd21aa4e4b3040d9e20e1d7adfc43f67198be97c4ea02"
+  },
+  "sifdecode": "3.1.0"
+}

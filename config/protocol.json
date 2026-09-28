@@ -1,0 +1,3752 @@
+{
+  "AIRPORT": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 85000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 85000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 85000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 85000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 85000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 85000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "CAMSHAPE": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 1,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "CANTILVR": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "CRESC4": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "GIGOMEZ2": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HAIFAL": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 1,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HAIFAM": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HAIFAS": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HALDMADS": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HIMMELBI": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 101000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 101000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 101000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 101000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 101000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 101000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HIMMELP3": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HIMMELP6": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HS100": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HS101": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HS104": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HS106": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HS108": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HS113": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HS116": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "HS117": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "MADSEN": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "MADSSCHJ": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 202000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 202000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 202000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 202000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 202000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 202000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "MAKELA2": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "MAKELA3": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "MATRIX2": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "OPTPRLOC": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "PENTAGON": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "POLAK3": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "POLAK6": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 0,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 50000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  },
+  "ROSEPETAL": {
+    "nomad_default": {
+      "eps_feas": 0.0001,
+      "flush_every": 1,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "sampled",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "szo_conex": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zoagp": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_gda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zob_sgda": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    },
+    "zominmax": {
+      "eps_feas": 0.0001,
+      "flush_every": 2500,
+      "outer_timeout_seconds": 1920,
+      "query_budget": 100000,
+      "record_every": 50,
+      "recording": "terminal",
+      "scoring_time_seconds": 1800,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "solver_max_time_seconds": 1800
+    }
+  }
+}
