@@ -71,23 +71,23 @@ Let $d=d_x$ and let $Q$ be the problem's query budget. The runner checks `config
 | Algorithm | Primal step | Dual step | Block/directions | Difference radius |
 | --- | --- | --- | --- | --- |
 | ZOB-GDA | $\alpha=0.08$ | $\beta=0.05$ | $b=\lceil\sqrt d\rceil$ | $r_k=0.003/\sqrt{k+1}$ |
-| ZOB-SGDA | $\alpha=0.1$ | $\beta=0.05$ | $b=\min\{d,\max\{1,\lceil0.75\sqrt d\rceil\}\}$ | $r_k=0.003/\sqrt{k+1}$ |
+| ZOB-SGDA | $\alpha=0.1$ | $\beta=0.05$ | $`b=\min\{d,\max\{1,\lceil0.75\sqrt d\rceil\}\}`$ | $r_k=0.003/\sqrt{k+1}$ |
 | ZOAGP | $\alpha_t=0.3(101)/(100+\sqrt t)$ | $\beta=0.09$ | All coordinates | $r_t=0.003/\sqrt t$ |
 | ZO-MinMax | $\alpha=0.1$ | $\beta=0.003$ | One sphere direction | $r=0.001$ |
 | SZO-ConEx | $\alpha=0.03$ | $\beta=0.009$ | Independent Gaussian directions | $r=0.01$ |
 
 The parameter `beta_over_alpha` multiplies the *initial* primal step, so the dual steps remain constant. All dual variables start at zero. The dual upper bound is 100 except for SZO-ConEx, which projects onto the nonnegative orthant without a finite upper bound.
 
-ZOB-SGDA uses $N=d/b$, $K=\max\{1,\lfloor Q/(b+1)\rfloor\}$, and memory ratio $\lambda=1$:
+ZOB-SGDA uses $N=d/b$, $`K=\max\{1,\lfloor Q/(b+1)\rfloor\}`$, and memory ratio $\lambda=1$:
 
-$$
+```math
 \gamma=\min\left\{\frac1{40},\frac1{\sqrt{KN}},\sqrt{\frac{\alpha}{768N\beta}}\right\},
 \qquad p=\frac{N\gamma}{\alpha}.
-$$
+```
 
 The selected-coordinate gradient includes $p(x-z)$; after the primal and dual updates, $z^+=(1-\gamma)z+\gamma x^+$, with $z^0=x^0$. Other theorem conditions involving unknown Lipschitz constants, including $p\ge3L$, are not certified by this empirical rule.
 
-Both ZOB methods sample coordinates without replacement and share one base evaluation. They do not apply a $d/b$ gradient multiplier. Coordinate $i$ uses step $r_k\max\{1,|x_i|\}$, forward if permitted by the box, otherwise backward, otherwise no perturbed query. The primal point is projected onto the box.
+Both ZOB methods sample coordinates without replacement and share one base evaluation. They do not apply a $d/b$ gradient multiplier. Coordinate $i$ uses step $`r_k\max\{1,|x_i|\}`$, forward if permitted by the box, otherwise backward, otherwise no perturbed query. The primal point is projected onto the box.
 
 ZOAGP uses decreasing dual regularization $\lambda_t=0.1/t^{1/4}$, with $t=1,2,\ldots$. Standard-basis forward differences are followed by a primal update and then a dual update at the new primal point. ZO-MinMax uses unit-sphere differences with the dimension multiplier and primal-first alternating projections. Both use the exact affine dual gradient from joint constraint values, and cache the new primal evaluation: their iterations cost $d+1$ and two new queries, respectively.
 
@@ -143,9 +143,9 @@ python -m cutest_benchmark.validation --out validation
 
 All algorithms start from the same CUTEst initial point projected onto the variable bounds. Seeds control algorithmic randomness. PyCUTEst drops fixed variables. Two-sided constraints become upper-side then lower-side inequalities. Equalities become two inequalities. No objective or constraint derivatives are requested from CUTEst.
 
-At the original initial point, set $s_f=\max\{1,|f_{\rm raw}(x^0)|\}$ and $s_i=\max\{1,|g_{i,\rm raw}(x^0)|\}$. These fixed scales normalize the objective and converted constraints. One joint query returns the objective and the entire inequality vector. The scaling initialization is outside the query budget.
+At the original initial point, set $`s_f=\max\{1,|f_{\rm raw}(x^0)|\}`$ and $`s_i=\max\{1,|g_{i,\rm raw}(x^0)|\}`$. These fixed scales normalize the objective and converted constraints. One joint query returns the objective and the entire inequality vector. The scaling initialization is outside the query budget.
 
-`config/problems.csv` gives the budgets. The first 27 problems use $\min\{10^6,\max\{50000,1000(d_x+1)\}\}$; HAIFAL, CAMSHAPE, and ROSEPETAL use 100,000 queries. Every solver has a 1,800-second solver limit and a 1,920-second outer watchdog. Only recorded observations within both the query budget and 1,800 seconds are scored. Startup, decoding, and watchdog grace do not extend the scored window. ZOB checks time between iterations, the three reference baselines before each oracle call, and NOMAD uses `MAX_TIME 1800`.
+`config/problems.csv` gives the budgets. The first 27 problems use $`\min\{10^6,\max\{50000,1000(d_x+1)\}\}`$; HAIFAL, CAMSHAPE, and ROSEPETAL use 100,000 queries. Every solver has a 1,800-second solver limit and a 1,920-second outer watchdog. Only recorded observations within both the query budget and 1,800 seconds are scored. Startup, decoding, and watchdog grace do not extend the scored window. ZOB checks time between iterations, the three reference baselines before each oracle call, and NOMAD uses `MAX_TIME 1800`.
 
 Wall-clock stopping depends on hardware, load, compiler, and concurrency. The published statistics can be reconstructed exactly from the retained summaries. Fresh time-limited optimization trajectories are not promised to be bitwise identical.
 
@@ -164,9 +164,9 @@ python -m cutest_benchmark.analysis \
 
 A run is feasible when a recorded in-budget incumbent has normalized maximum violation at most $10^{-4}$. With best feasible normalized objective $f^{\rm best}$, initial objective $f^0$, and shared reference $f^{\rm ref}$, define
 
-$$
+```math
 G=\frac{\max\{0,f^{\rm best}-f^{\rm ref}\}}{\max\{1,|f^0-f^{\rm ref}|\}}.
-$$
+```
 
 The unit floor avoids division by a small initial gap. Infeasible runs never count as solved. A missing reference also prevents a solved classification.
 
@@ -174,18 +174,18 @@ For each seed separately, count feasible problems and problems with $G\le\tau$. 
 
 Let $q_{p,a,s}(\tau)$ be the first recorded qualifying query, or infinity if no target is reached. Define
 
-$$
+```math
 d_{a,s}(u;\tau)=\frac1{30}\sum_{p=1}^{30}
 \mathbf{1}\{q_{p,a,s}(\tau)/(d_{x,p}+1)\le u\}.
-$$
+```
 
 The data-profile line is the mean over seeds. Its band is the pointwise 95% Student-t interval, clipped to $[0,1]$ for display only. ZOAGP has no band. All 30 problems remain in the denominator. With $B=\max_p Q_p/(d_{x,p}+1)=16666.667$, compute each seed's normalized log-AUC as
 
-$$
+```math
 A_{a,s}(\tau)=\frac1{\log B}\int_1^B d_{a,s}(u;\tau)\,d\log u.
-$$
+```
 
-The integral is evaluated exactly for the step profile. Equivalently, average $\log(B/\operatorname{clip}(q/(d_x+1),1,B))/\log B$ across the 30 problems, assigning zero to failures. The AUC interval is computed from the ten **seed-level areas**. These intervals describe seed variability.
+The integral is evaluated exactly for the step profile. Equivalently, average $\log(B/\mathrm{clip}(q/(d_x+1),1,B))/\log B$ across the 30 problems, assigning zero to failures. The AUC interval is computed from the ten **seed-level areas**. These intervals describe seed variability.
 
 ### Per-Run Fields
 
